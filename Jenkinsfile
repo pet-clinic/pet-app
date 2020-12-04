@@ -2,7 +2,7 @@ node("maven-label") {
     def mvnHome
     stage('Preparation') { 
         
-        scm checkout
+        checkout scm
         
         mvnHome = tool 'maven-3.6.3'
     }
