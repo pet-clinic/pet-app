@@ -26,9 +26,9 @@
     </repository>
     <snapshotRepository>
       <uniqueVersion>true</uniqueVersion>
-      <id>propSnap</id>
-      <name>Propellors Snapshots</name>
-      <url>sftp://propellers.net/maven</url>
+      <id>petapp-snapshots</id>
+      <name>petapp-snapshots</name>
+      <url>http://ec2-18-189-43-251.us-east-2.compute.amazonaws.com:8082/artifactory/petapp-snapshots/</url>
       <layout>legacy</layout>
     </snapshotRepository>
   </distributionManagement>
